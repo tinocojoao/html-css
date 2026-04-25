@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #FFDAB9;
+}
+
+main{
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(231, 235, 238);
+    margin: 20px;
+}
+
+
+header{
+    background-image: linear-gradient( to top,#789674
+,#59c039);
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+header > p{
+    text-align: center;
+    color: rgb(190, 190, 190);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav > a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(187, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Conteudo{
+    border: 2px solid black;   
+    border-radius: 5px;
+}
+
+mark{
+    background-color: #508f3d96;
+}
+
+#Conteudo > h1{
+    color: #508f3d;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Conteudo > p{
+    text-align: justify;
+    margin: 10px;
+    text-indent: 25px;
+}
+
+#Conteudo > h2{
+    margin: 15px;
+    color: #59c039;
+    background-image: linear-gradient(to left, rgb(226, 226, 226), rgba(65, 247, 65, 0.452));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#irina-esticada {
+    display: block;
+    margin: auto;
+}
+
+footer > section {
+    border: 1px solid;
+}
+
+#Conclusao{
+    background-color: #59c039;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#Conclusao > h1{
+    background-color: #388a1f;
+    margin: 10px;
+}
+
+footer{
+    padding: 10px;
+}
+
+#Conclusao > p{
+    margin: 10px;
+}
+
+footer > p{
+    text-align: justify;
+    text-indent: 25px;
+}
