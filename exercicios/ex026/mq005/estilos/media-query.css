@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+/* todas as demais midias */
+
+/* TYPICAL DEVICE BREAKPOINTS 
+
+pequenas telas: ate 600px   ------- MOBILE FRIST JA REALIZADO STYLE.CSS
+celular: de 600px ate 768px ------- MOBILE FRIST JA REALIZADO STYLE.CSS
+tablet: 768px 992px
+desktop: 992px 1200px
+grandes telas: acima de 1200px
+*/
+
+
+@media screen and (min-width: 768px){
+    span#burguer {
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
