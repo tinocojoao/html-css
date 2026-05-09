@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICE BREAKPOINTS 
+
+pequenas telas: ate 600px   ------- MOBILE FRIST JA REALIZADO STYLE.CSS
+celular: de 600px ate 768px ------- MOBILE FRIST JA REALIZADO STYLE.CSS
+tablet: 768px 992px
+desktop: 992px 1200px
+grandes telas: acima de 1200px
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    position: relative;
+}
+
+main {
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: aqua;
+    position: absolute;
+    margin: auto;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%)
+}
